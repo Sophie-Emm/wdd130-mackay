@@ -1,0 +1,30 @@
+:root {
+    --primary: #000F08; 
+    --secondary: #1C3738;   
+    --accent: #4D4847;
+    --mainbackground: #F4FFF8;
+    --softaccent: #8BAAAD;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--secondary);
+  padding: 1rem 2rem;
+  border-bottom: 3px solid var(--accent);
+}
+
+.logo img {
+  height: 50px;
+}
+
+body {
+    background-color: var(--mainbackground);
+    color: var(--primary);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
