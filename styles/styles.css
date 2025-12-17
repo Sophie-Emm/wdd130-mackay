@@ -29,4 +29,52 @@ body {
     text-decoration: none;
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 2px solid var(--accent);
+}
+.hero-content {
+  width: 800px;
+  text-align: center;
+}
+.hero-content h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+#hero-img {
+  width: 900px;
+  height: auto;
+  text-align: center;
+}
+
+.subpages {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.checklist, .general {
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.checklist:hover, .general:hover {
+  transform: scale(1.05);
+}
+
+.checklist img, .general img {
+  width: 400px;
+  border: 2px solid var(--secondary);
+  border-radius: 6px;
+}
+
+.checklist h2, .general h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
 
